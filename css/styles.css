@@ -33,6 +33,36 @@ body {
     color: black;
 }
 
+.header {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: #AFC3DE;
+}
+
+.text-logo-homepage-link {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.header-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 2px solid #F6F3A9;
+}
+
+.header-nav-item {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: black;
+}
+
 .footer {
     background-color: #AFC3DE;
     color: black;
