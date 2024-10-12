@@ -41,8 +41,12 @@ body {
 }
 
 .text-logo-homepage-link {
-    margin: 10px auto;
     width: 80%;
+    margin: 10px auto;
+}
+
+.text-logo-image {
+    width: 100%;
 }
 
 .header-nav {
